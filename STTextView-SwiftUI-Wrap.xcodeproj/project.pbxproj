@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E600F9B2CA0EFDC00771859 /* STTextView_SwiftUI_WrapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E600F9A2CA0EFDC00771859 /* STTextView_SwiftUI_WrapApp.swift */; };
+		3E600F9D2CA0EFDC00771859 /* STTextView_SwiftUI_WrapDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E600F9C2CA0EFDC00771859 /* STTextView_SwiftUI_WrapDocument.swift */; };
+		3E600F9F2CA0EFDC00771859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E600F9E2CA0EFDC00771859 /* ContentView.swift */; };
+		3E600FA12CA0EFDD00771859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E600FA02CA0EFDD00771859 /* Assets.xcassets */; };
+		3E600FA42CA0EFDD00771859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E600FA32CA0EFDD00771859 /* Preview Assets.xcassets */; };
+		3E600FAD2CA0F02D00771859 /* STTextView in Frameworks */ = {isa = PBXBuildFile; productRef = 3E600FAC2CA0F02D00771859 /* STTextView */; };
+		3E600FB02CA0F06700771859 /* EditorView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E600FAF2CA0F06700771859 /* EditorView.storyboard */; };
+		3E600FB22CA0F06C00771859 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E600FB12CA0F06A00771859 /* EditorViewController.swift */; };
+		3E600FB52CA0F0BC00771859 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E600FB42CA0F0BC00771859 /* EditorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E600F972CA0EFDC00771859 /* STTextView-SwiftUI-Wrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STTextView-SwiftUI-Wrap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E600F9A2CA0EFDC00771859 /* STTextView_SwiftUI_WrapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTextView_SwiftUI_WrapApp.swift; sourceTree = "<group>"; };
+		3E600F9C2CA0EFDC00771859 /* STTextView_SwiftUI_WrapDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTextView_SwiftUI_WrapDocument.swift; sourceTree = "<group>"; };
+		3E600F9E2CA0EFDC00771859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E600FA02CA0EFDD00771859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E600FA32CA0EFDD00771859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E600FA52CA0EFDD00771859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E600FAF2CA0F06700771859 /* EditorView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditorView.storyboard; sourceTree = "<group>"; };
+		3E600FB12CA0F06A00771859 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		3E600FB42CA0F0BC00771859 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E600F942CA0EFDC00771859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E600FAD2CA0F02D00771859 /* STTextView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E600F8E2CA0EFDC00771859 = {
+			isa = PBXGroup;
+			children = (
+				3E600F992CA0EFDC00771859 /* STTextView-SwiftUI-Wrap */,
+				3E600F982CA0EFDC00771859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E600F982CA0EFDC00771859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E600F972CA0EFDC00771859 /* STTextView-SwiftUI-Wrap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E600F992CA0EFDC00771859 /* STTextView-SwiftUI-Wrap */ = {
+			isa = PBXGroup;
+			children = (
+				3E600FAE2CA0F03500771859 /* StoryboardView */,
+				3E600F9A2CA0EFDC00771859 /* STTextView_SwiftUI_WrapApp.swift */,
+				3E600F9C2CA0EFDC00771859 /* STTextView_SwiftUI_WrapDocument.swift */,
+				3E600F9E2CA0EFDC00771859 /* ContentView.swift */,
+				3E600FB42CA0F0BC00771859 /* EditorView.swift */,
+				3E600FA02CA0EFDD00771859 /* Assets.xcassets */,
+				3E600FA52CA0EFDD00771859 /* Info.plist */,
+				3E600FA22CA0EFDD00771859 /* Preview Content */,
+			);
+			path = "STTextView-SwiftUI-Wrap";
+			sourceTree = "<group>";
+		};
+		3E600FA22CA0EFDD00771859 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E600FA32CA0EFDD00771859 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E600FAE2CA0F03500771859 /* StoryboardView */ = {
+			isa = PBXGroup;
+			children = (
+				3E600FAF2CA0F06700771859 /* EditorView.storyboard */,
+				3E600FB12CA0F06A00771859 /* EditorViewController.swift */,
+			);
+			path = StoryboardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E600F962CA0EFDC00771859 /* STTextView-SwiftUI-Wrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E600FA82CA0EFDD00771859 /* Build configuration list for PBXNativeTarget "STTextView-SwiftUI-Wrap" */;
+			buildPhases = (
+				3E600F932CA0EFDC00771859 /* Sources */,
+				3E600F942CA0EFDC00771859 /* Frameworks */,
+				3E600F952CA0EFDC00771859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STTextView-SwiftUI-Wrap";
+			packageProductDependencies = (
+				3E600FAC2CA0F02D00771859 /* STTextView */,
+			);
+			productName = "STTextView-SwiftUI-Wrap";
+			productReference = 3E600F972CA0EFDC00771859 /* STTextView-SwiftUI-Wrap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E600F8F2CA0EFDC00771859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3E600F962CA0EFDC00771859 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3E600F922CA0EFDC00771859 /* Build configuration list for PBXProject "STTextView-SwiftUI-Wrap" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E600F8E2CA0EFDC00771859;
+			packageReferences = (
+				3E600FAB2CA0F02C00771859 /* XCRemoteSwiftPackageReference "STTextView" */,
+			);
+			productRefGroup = 3E600F982CA0EFDC00771859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E600F962CA0EFDC00771859 /* STTextView-SwiftUI-Wrap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E600F952CA0EFDC00771859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E600FA42CA0EFDD00771859 /* Preview Assets.xcassets in Resources */,
+				3E600FB02CA0F06700771859 /* EditorView.storyboard in Resources */,
+				3E600FA12CA0EFDD00771859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E600F932CA0EFDC00771859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E600F9B2CA0EFDC00771859 /* STTextView_SwiftUI_WrapApp.swift in Sources */,
+				3E600F9D2CA0EFDC00771859 /* STTextView_SwiftUI_WrapDocument.swift in Sources */,
+				3E600F9F2CA0EFDC00771859 /* ContentView.swift in Sources */,
+				3E600FB52CA0F0BC00771859 /* EditorView.swift in Sources */,
+				3E600FB22CA0F06C00771859 /* EditorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E600FA62CA0EFDD00771859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E600FA72CA0EFDD00771859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E600FA92CA0EFDD00771859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STTextView-SwiftUI-Wrap/Preview Content\"";
+				DEVELOPMENT_TEAM = QT93JJ48BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STTextView-SwiftUI-Wrap/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STTextView SwiftUI Wrap";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ixor.STTextView-SwiftUI-Wrap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E600FAA2CA0EFDD00771859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STTextView-SwiftUI-Wrap/Preview Content\"";
+				DEVELOPMENT_TEAM = QT93JJ48BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STTextView-SwiftUI-Wrap/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STTextView SwiftUI Wrap";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ixor.STTextView-SwiftUI-Wrap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E600F922CA0EFDC00771859 /* Build configuration list for PBXProject "STTextView-SwiftUI-Wrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E600FA62CA0EFDD00771859 /* Debug */,
+				3E600FA72CA0EFDD00771859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E600FA82CA0EFDD00771859 /* Build configuration list for PBXNativeTarget "STTextView-SwiftUI-Wrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E600FA92CA0EFDD00771859 /* Debug */,
+				3E600FAA2CA0EFDD00771859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E600FAB2CA0F02C00771859 /* XCRemoteSwiftPackageReference "STTextView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/STTextView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E600FAC2CA0F02D00771859 /* STTextView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E600FAB2CA0F02C00771859 /* XCRemoteSwiftPackageReference "STTextView" */;
+			productName = STTextView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3E600F8F2CA0EFDC00771859 /* Project object */;
+}
